@@ -1,0 +1,68 @@
+body {
+        background-color: #add8e6;
+        background-image: url(/wargames.png);
+        font-weight: bold;
+        -webkit-padding-start: 2%;
+        line-height: 150%;
+    }
+  
+ h2 {
+    font-size: 36px;
+    font-style: italic;
+    font-family: cursive;
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+    
+ }
+
+ #firstField {
+    border-radius: 6px;
+    border-width: medium;
+    border-color: darkblue;
+    backface-visibility: hidden;
+ }
+
+ #secondField{
+    border-radius: 6px;
+    border-width: medium;
+    border-color: darkblue;
+    backface-visibility: hidden;
+ }
+
+ #guess {
+    border-color: black;
+
+ }
+ 
+.button {
+    background-color: white;
+    border:thick;
+    border-radius: 8px;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buttonNew {
+    background-color: white;
+    border:thick;
+    border-radius: 8px;
+    border-color: black;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#cheatShow {
+    font-size: large;
+    color: red;
+}

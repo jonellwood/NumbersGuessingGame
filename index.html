@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>    
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/script.js"></script>
+        <h2>Do you want to play a game with me?</h2>
+    </head>
+
+    <body>
+        <fieldset id="firstField">
+            <legend>Guess a number between 1 and 100</legend>
+            <label for="guess">Your Guess:</label>
+            <input type="text" id="guess" value="50" />
+            <input type="button" class="button" onclick="yourGuess()" value="guess" id="guess"/><br />
+            <input type="button" class="button" onclick="" value="Show My Guesses" />  
+            <input type="button" class="buttonNew" onclick="refreshPage()" value="New Game" /><br />
+            <input id="cheat" type="checkbox" value="cheat" onclick="showNumberToGuess()" />
+            <label for="cheat">Cheat</label>
+            <div id="cheatShow" style="display: none;">
+            <input id="numberToGuess" type="text" />
+            <label for="numberToGuess">Number to guess</label>
+            </div>
+        </fieldset>
+        <fieldset id="secondField">
+            <legend> Output </legend>
+            <textarea id="output" name="output" rows="5" style="width: 100%;"></textarea>
+        </fieldset>
+
+</body>
+
+
+
+   </html>
