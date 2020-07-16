@@ -1,6 +1,6 @@
 body {
         background-color: #add8e6;
-        background-image: url(/shall-we-play-a-game.jpg);
+        background-image: url(../shall-we-play-a-game.jpg);
         font-weight: bold;
         -webkit-padding-start: 2%;
         line-height: 150%;
@@ -8,8 +8,8 @@ body {
   
  h2 {
     font-size: 36px;
-    font-style: italic;
-    font-family: cursive;
+    font-style: normal;
+    font-family: monospace;
     text-shadow: 2px 2px 5px red;
     text-align: center;
     
@@ -20,6 +20,7 @@ body {
     border-width: medium;
     border-color: darkblue;
     backface-visibility: hidden;
+    color: white
  }
 
  #secondField{
@@ -27,6 +28,7 @@ body {
     border-width: medium;
     border-color: darkblue;
     backface-visibility: hidden;
+    color: white;
  }
 
  #guess {
