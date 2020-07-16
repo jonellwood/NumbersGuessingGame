@@ -25,5 +25,7 @@ function refreshPage(){
     window.location.reload();
 }
 
-
+function showGuesses(){
+    window.alert("My Guesses!! HAHAHAHAHAHA");
+}
 var numToGuess = Math.floor(Math.random()*50);
